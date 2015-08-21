@@ -14,6 +14,7 @@ namespace Lab1_1
 
             // input
             int[] input = { 4, 5, 2, 8, 9, 1, 2, 4, 3, 1 };
+            int num = 0;
 
             // process
             while (flag)
@@ -27,6 +28,7 @@ namespace Lab1_1
                         input[i] = input[i + 1];
                         input[i + 1] = temp;
                         flag = true;
+                        num++;
                     }
                 }
             }
@@ -37,6 +39,8 @@ namespace Lab1_1
                 Console.Write(input[i]);
                 Console.Write(" ");
             }
+            Console.WriteLine();
+            Console.Write(num);
             Console.ReadKey();
         }
     }
