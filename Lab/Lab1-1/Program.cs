@@ -17,7 +17,7 @@ namespace Lab1_1
             int num = 0;
 
             // process
-            /*while (flag)
+            while (flag)
             {
                 flag = false;
                 for (int i = 0; i != input.Length - 1; i++)
@@ -32,7 +32,7 @@ namespace Lab1_1
                     }
                 }
             }
-            */
+            
             // output
             for (int i = 0; i != input.Length; i++)
             {
