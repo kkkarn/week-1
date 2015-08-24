@@ -6,9 +6,9 @@
 * Change the code such that there is no flag variable, put the commit number below and answer question 5 
 
 
-## Revision, put your commit number here 627e1c1f
-* Sort from larger to smaller:
-* Without flag:
+## Revision, put your commit number here 
+* Sort from larger to smaller: 820c21d3
+* Without flag: 752bf025
 
 ## Questions
 1. How this code can sort number from smaller to larger
